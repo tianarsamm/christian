@@ -228,7 +228,7 @@ export default function About() {
         }
       `}</style>
 
-      <section className="about-section" ref={ref}>
+      <section id="about" className="about-section" ref={ref}>
         {/* Background layers — same as Hero */}
         <div className="about-noise" />
         <div className="about-grid-lines" />
