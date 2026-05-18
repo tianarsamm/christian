@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import React from "react";
 
 const skills = [
   {
@@ -63,7 +64,7 @@ const skills = [
 
 // SVG icons for tech
 const TechIcon = ({ icon, color }: { icon: string; color: string }) => {
-  const icons: Record<string, JSX.Element> = {
+  const icons: Record<string, React.ReactNode> = {
     html: (
       <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
         <path d="M6 2l2.4 27L16 31l7.6-2L26 2H6z" fill="#e34f26"/>
