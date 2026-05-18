@@ -306,7 +306,7 @@ export default function About() {
                   { label: "Leader", desc: "Driving initiatives within DPM Satyadhara student organization" },
                 ].map((t) => (
                   <div className="trait-item" key={t.label}>
-                    <span className="trait-icon">{t.icon}</span>
+                    {/* <span className="trait-icon">{t.icon}</span> */}
                     <div className="trait-label">{t.label}</div>
                     <div className="trait-desc">{t.desc}</div>
                   </div>
