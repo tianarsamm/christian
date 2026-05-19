@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: "Christian - Portfolio",
   description: "Get to know Christian, a passionate web developer with a knack for crafting stunning websites. Explore his portfolio and discover the magic he can create for you.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo2.png",
+    shortcut: "/logo2.png",
+    apple: "/logo2.png",
   },
 };
 
